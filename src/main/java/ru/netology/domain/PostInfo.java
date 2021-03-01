@@ -28,13 +28,13 @@ public class PostInfo {
     String editMode;
     int postponedId;
 
-    private CommentsInfo CommentsInfo;
-    private CopyrightInfo CopyrightInfo;
-    private CountsOfViewInfo CountsOfViewInfo;
-    private ElsePost ElsePost;
-    private LikesInfo LikesInfo;
-    private PostSource PostSource;
-    private RepostInfo RepostInfo;
+    private CommentsInfo commentsInfo;
+    private CopyrightInfo copyrightInfo;
+    private CountsOfViewInfo countsOfViewInfo;
+    private ElsePost elsePost;
+    private LikesInfo likesInfo;
+    private PostSource postSource;
+    private RepostInfo repostInfo;
 
     public int getId() {
         return id;
