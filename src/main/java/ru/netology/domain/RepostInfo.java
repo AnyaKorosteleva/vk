@@ -1,16 +1,16 @@
 package ru.netology.domain;
 
 public class RepostInfo {
-    int countOfRepost;
+    int count;
     boolean canPublish;
     boolean userReposted;
 
-    public int getCountOfRepost() {
-        return countOfRepost;
+    public int getCount() {
+        return count;
     }
 
-    public void setCountOfRepost(int countOfRepost) {
-        this.countOfRepost = countOfRepost;
+    public void setCount(int count) {
+        this.count = count;
     }
 
     public boolean isCanPublish() {

@@ -1,7 +1,7 @@
 package ru.netology.domain;
 
 public class CommentsInfo {
-    int countOfComments;
+    int count;
     boolean canPost;
     boolean groupsCanPost;
     boolean canClose;
@@ -12,12 +12,12 @@ public class CommentsInfo {
     int countOfPostLiked;
     String commentAppeal;
 
-    public int getCountOfComments() {
-        return countOfComments;
+    public int getCount() {
+        return count;
     }
 
-    public void setCountOfComments(int countOfComments) {
-        this.countOfComments = countOfComments;
+    public void setCount(int count) {
+        this.count = count;
     }
 
     public boolean isCanPost() {

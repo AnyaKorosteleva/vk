@@ -26,7 +26,15 @@ public class PostInfo {
     boolean placeHolder;
     boolean canPublishFreeCopy;
     String editMode;
-    int postId;
+    int postponedId;
+
+    private CommentsInfo CommentsInfo;
+    private CopyrightInfo CopyrightInfo;
+    private CountsOfViewInfo CountsOfViewInfo;
+    private ElsePost ElsePost;
+    private LikesInfo LikesInfo;
+    private PostSource PostSource;
+    private RepostInfo RepostInfo;
 
     public int getId() {
         return id;
@@ -228,11 +236,11 @@ public class PostInfo {
         this.editMode = editMode;
     }
 
-    public int getPostId() {
-        return postId;
+    public int getpostponedId() {
+        return postponedId;
     }
 
-    public void setPostId(int postId) {
-        this.postId = postId;
+    public void setpostponedId(int postponedId) {
+        this.postponedId = postponedId;
     }
 }
